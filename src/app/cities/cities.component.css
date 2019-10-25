@@ -1,0 +1,21 @@
+.city{
+    display: inline-block;
+    width: 75%;
+    height: 75%;
+    background: #fff;
+    float: left;
+}
+.city-small{
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    background: #fff;
+    float: left;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    float:left;
+    padding-right: 1px;
+    padding-top: 1px;
+}

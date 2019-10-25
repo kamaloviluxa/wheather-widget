@@ -1,0 +1,16 @@
+<div>
+    <div class="city" (click)="setCurrentCity(cities[0])">
+        <img [src]="cities[0].img">
+    </div><!--
+ --><div class="city-small"
+         *ngFor="let city of cities | slice:1"
+         (click)="setCurrentCity(city)"
+    >
+        <img [src]="city.img" >
+    </div><!--
+ --><ng-container *ngFor="let i of [0,1,2,3,4,5,6,7]">
+        <div class="city-small" *ngIf="i>=cities.length">
+            <img src="https://inquestor.ru/images/176446f.svg?v306">
+        </div>
+    </ng-container>
+</div>

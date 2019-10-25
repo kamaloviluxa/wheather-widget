@@ -1,0 +1,9 @@
+.social-header{
+    padding: 15px;
+}
+.social-info{
+    padding: 15px;
+    padding-top: 0;
+    position: relative;
+    display: inline-block;
+}

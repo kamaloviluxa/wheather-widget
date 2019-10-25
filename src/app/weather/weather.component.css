@@ -1,0 +1,16 @@
+.weather {
+    padding: 15px;
+}
+.weather-image {
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+.weather-description {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+}
