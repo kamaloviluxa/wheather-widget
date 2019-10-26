@@ -1,9 +1,15 @@
 .header {
     max-height: 999999px;
     font-size: 22px;
-    padding: 15px 50px 15px 30px;
+    padding-bottom: 15px;
 }
 
 .description{
-
+    padding-bottom: 15px;
+}
+.image {
+    padding-bottom: 15px;
+}
+.info {
+    padding: 15px;
 }

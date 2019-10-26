@@ -5,9 +5,13 @@
     display: table-cell;
     vertical-align: middle;
     border-radius: 100%;
-    width: 45px;
-    height: 45px;
+    width: 80px;
+    height: 80px;
     overflow: hidden;
+}
+img {
+    float: left;
+    width: 100%;
 }
 .weather-description {
     display: table-cell;

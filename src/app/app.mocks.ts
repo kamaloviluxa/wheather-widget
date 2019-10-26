@@ -14,6 +14,7 @@ export interface IWeather {
     title: string;
     water: number;
     temperature: number;
+    img: string;
 }
 
 export interface ISocial {
@@ -30,7 +31,8 @@ const cities: ICity[] = [
         weather: {
             title: 'Тепло',
             water: 13,
-            temperature: 19
+            temperature: 19,
+            img: 'https://inquestor.ru/media/cache/moment_thumb/uploads/image/74fc6f35e267b40dce02c19b5ce96d36/cf3974913150b58813880649f4c0e786.jpg'
         },
         social_info: {
             followers: 1239,
@@ -38,14 +40,15 @@ const cities: ICity[] = [
         },
     },
     {
-        img: 'https://inquestor.ru/media/cache/moment_thumb/uploads/image/74fc6f35e267b40dce02c19b5ce96d36/5979f5acbf0b26a4090f55282699245e.jpg',
+        img: 'https://inquestor.ru/media/cache/moment_thumb/uploads/image/74fc6f35e267b40dce02c19b5ce96d36/06e0afe6752f842bc934369edb7f627e.jpg',
         address: 'Пермь',
         type: 'Город',
         description: 'Пермь — город на востоке европейской части России, в Предуралье, на берегах реки Камы, ниже впадения в неё реки Чусовой, административный центр Пермского края и Пермского района',
         weather: {
             title: 'Дождливо',
             water: 11,
-            temperature: 13
+            temperature: 13,
+            img: 'https://inquestor.ru/media/cache/moment_thumb/uploads/image/74fc6f35e267b40dce02c19b5ce96d36/cf7d1d13716e2b68817a9c1bca0457cd.jpg'
         },
         social_info: {
             followers: 1031,
@@ -61,7 +64,8 @@ const cities: ICity[] = [
         weather: {
             title: 'Ясно',
             water: 20,
-            temperature: 33
+            temperature: 33,
+            img: 'https://inquestor.ru/media/cache/moment_thumb/uploads/image/74fc6f35e267b40dce02c19b5ce96d36/16249b264f43072cf2f8668c01ddd215.jpg'
         },
         social_info: {
             followers: 1731,
@@ -69,14 +73,15 @@ const cities: ICity[] = [
         },
     },
     {
-        img: 'https://inquestor.ru/media/cache/moment_thumb/uploads/image/74fc6f35e267b40dce02c19b5ce96d36/89a359972bcf2ef97b298d1e888242d8.jpg',
+        img: 'https://inquestor.ru/media/cache/moment_thumb/uploads/image/74fc6f35e267b40dce02c19b5ce96d36/7f6a68bcf3917eb43887fd15ba010ded.jpg',
         address: 'Тюмень',
         type: 'Город',
         description: 'город в России, административный центр Тюменской области и Тюменского района, в состав которого не входит. Расположен на реке Тура',
         weather: {
             title: 'Дождливо',
             water: 11,
-            temperature: 13
+            temperature: 13,
+            img: 'https://inquestor.ru/media/cache/moment_thumb/uploads/image/74fc6f35e267b40dce02c19b5ce96d36/7ceda8254deb65be5686e525f1a7d2dd.jpg'
         },
         social_info: {
             followers: 1031,

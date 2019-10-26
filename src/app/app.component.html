@@ -1,16 +1,26 @@
-<div class="tablet">
-    <div class="tablet__cities">
-        <app-cities [currentCity]="currentCity" [cities]="cities" (changeCity)="setCurrentCity($event)"></app-cities>
+<div class="tablet table">
+    <div class="tablet-left tablet-col">
+        <div class="widget">
+            <app-cities [currentCity]="currentCity" [cities]="cities" (changeCity)="setCurrentCity($event)"></app-cities>
+        </div>
+        <div class="widget">
+            <app-weather [weather]="currentCity.weather"></app-weather>
+        </div>
     </div>
-    <div class="tablet__countries">
-        <app-info [city]="currentCity"></app-info>
+    <div class="tablet-right tablet-col">
+        <div >
+            <div class="widget">
+                <app-info [city]="currentCity"></app-info>
+            </div>
+            <div class="widget">
+                <app-social [social]="currentCity.social_info"></app-social>
+            </div>
+        </div>
+
+        <!--<app-weather [weather]="currentCity.weather"></app-weather>-->
     </div>
-</div>
 
-<div class="tablet">
-    <app-weather [weather]="currentCity.weather"></app-weather>
-</div>
-
-<div class="tablet">
-    <app-social [social]="currentCity.social_info"></app-social>
+    <!--<div class="tablet">-->
+        <!--<app-social [social]="currentCity.social_info"></app-social>-->
+    <!--</div>-->
 </div>

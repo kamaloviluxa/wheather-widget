@@ -1,6 +1,11 @@
-<div class="header">
-    {{city.address}}
-</div>
-<div class="description">
-    {{city.description}}
+<div class="info">
+    <div class="header">
+        {{city.address}}
+    </div>
+    <div class="image">
+        <img [src]="city.img" />
+    </div>
+    <div class="description">
+        {{city.description}}
+    </div>
 </div>

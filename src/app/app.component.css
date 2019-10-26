@@ -1,14 +1,31 @@
 
 .tablet {
-    width: 1000px;
+    width: 600px;
     margin: 15px auto 0;
+
+    overflow: auto;
+    position:relative;
+
+}
+.table {
+    display: table;
+}
+.tablet-col {
+    display: table-cell;
+    vertical-align: top;
+
+}
+.tablet-row {
+    display: table-row;
+
+}
+.tablet-left {
+    width: 50%;
+}
+.widget {
     background: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: auto;
-}
-.tablet__cities {
-    float: left;
-    display: inline-block;
-    width:25%;
+    padding-bottom: 15px;
     margin-right: 15px;
+    margin-bottom: 15px;
 }
